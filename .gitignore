@@ -1,0 +1,44 @@
+# OS関連ファイル
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# PHPの一般的な除外対象
+/vendor/
+composer.lock
+composer.phar
+*.log
+error_log
+access_log
+
+# 設定ファイル（必要に応じて）
+.env
+config.php
+/db/dbconnect.php
+
+# キャッシュとセッション
+/cache/
+/logs/
+/tmp/
+/temp/
+/sessions/
+
+# 依存関係管理
+/node_modules/
+package-lock.json
+yarn.lock
+
+# エディタ関連
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ユーザーが指定した除外対象
+/xserver_php/
+
+# アップロードされたファイル
+/uploads/
+/media/ 
